@@ -1,0 +1,88 @@
+body{
+  background-image: linear-gradient(rgb(7, 12, 62), rgb(96, 149, 219));
+  font-family: Verdana;
+  font-size: 16px;
+  color:aliceblue;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: Arial Black;
+}
+
+h1, p {
+  margin: 1em;
+  text-align: center;
+  }
+
+form {
+  width: 70vw;
+  max-width: 600px;
+  min-width: 350px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem;
+  border-bottom: 1px solid grey;
+  border-radius: 1px;
+  border-color: rgb(7, 12, 62);
+}
+
+label {
+  display: inline;
+  margin: 1;
+}
+
+input[type="text"], [type="email"], [type="number"] {
+  margin: 2px 2px 15px 1px;
+  width: 100%;
+  min-height: 2em;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+
+select {
+  margin: 2px 1px 15px 1px;
+  width: 27%;
+  min-height: 2em;
+  border: 2px solid grey;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input[type="radio"], [type=checkbox] {
+  margin: 5px 10px 10px 1px;
+  border: 1px solid grey;
+  height: 13px; 
+  width: 15px;
+}
+
+  textarea {
+  margin: 1px 1px 1px 1px;
+  width: 100%;
+  min-height: 2em;
+  border: 2px solid grey;
+  border-radius: 10px;
+ }
+
+input[type="submit"] {
+  display: block;
+  width: 40%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3e64b4;
+  border-color: white;
+  border-radius: 10px;
+  min-width: 300px;
+  color: white;
+  text-decoration:none !important;
+  }
+
+input[type="submit"]:hover {
+  text-shadow: 0 0 4px #fff;
+  cursor: pointer;
+}

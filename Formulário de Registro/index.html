@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulário de Registro</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!--Normalize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1 id="title">Formulário de Registro</h1>
+    <p id="description">Preencha o formulário abaixo para envio das informações</p>
+    <form id="survey-form">
+      <fieldset>
+<label id="name-label" for="name-label">Nome: <input id="name" name="nome" type="text" placeholder="Brena" required /></label><br>
+<label id="email-label" for="email-label">Insira seu e-mail: <input id="email" name="email" type="email" placeholder="example@example.com" required /></label><br>
+<label id="number-label" for="number">Idade (Opcional): <input id="number" name="age" type="number" placeholder="15" min="10" max="120"/></label><br>
+<label for="dropdown">Qual a sua atual situação?</label>
+<select name="atual-situacao" id="dropdown">
+  <optgroup label="(Escolha um)">
+    <option value="estudante">Estudante</option>
+    <option value="professor">Professor</option>
+    </optgroup>
+</select>
+</fieldset>
+  <fieldset>
+<p>Você nos recomendaria para algum amigo?</p>
+<label for="sim"><input id="sim" type="radio" name="recomenda" class="sim" value="sim"/> Sim</label><br>
+<label for="nao"><input id="nao" type="radio" name="recomenda" class="nao" value="nao"/> Não</label><br>
+<label for="talvez"><input id="talvez" type="radio" name="recomenda" class="talvez" value="talvez"/> Talvez</label>
+</fieldset>
+  <fieldset>
+<p>O que você está aprendendo no momento?</p>
+<label>
+<input name="prefer" value="html" type="checkbox" class="input-checkbox">HTML
+</label><br>
+<label>
+<input name="prefer" value="css" type="checkbox" class="input-checkbox">CSS
+</label><br>
+<label>
+<input name="prefer" value="javascript" type="checkbox" class="input-checkbox">JavaScript
+</label><br>
+<label>
+<input name="prefer" value="phyton" type="checkbox" class="input-checkbox">Phyton
+</label>
+</fieldset>
+  <fieldset>
+<label for="bio">
+  <p>Compartilhe seu comentário ou sugestão:</p>
+  <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Insira sua sugestão aqui!"></textarea>
+</label>
+</fieldset>
+<input id="submit" type="submit" value="Inscrever" />
+</form>
+</body>
+</html>
