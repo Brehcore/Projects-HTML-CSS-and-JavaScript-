@@ -13,5 +13,5 @@ Para começar, basta clonar ou baixar este repositório para seu computador e ab
 
 <h2>Construído com:</h2>
 - HTML5<br>
-- CSS3
+- CSS3<br>
 - JavaScript
