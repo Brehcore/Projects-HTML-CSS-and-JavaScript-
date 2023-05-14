@@ -1,6 +1,6 @@
 <h1>Projeto HTML e CSS</h1>
 
-Este é um projeto que mostra os conceitos básicos de HTML e CSS, incluindo o uso de diferentes elementos HTML, estilo CSS e técnicas de design responsivo.
+Estes são projetos que mostra os conceitos básicos de HTML5, CSS3 e JavaScript, incluindo o uso de diferentes elementos HTML, estilo CSS e técnicas de design responsivo.
 
 * Primeiros passos:
 Essas instruções fornecerão uma cópia do projeto em funcionamento em seu computador para fins de desenvolvimento e teste.
@@ -14,3 +14,4 @@ Para começar, basta clonar ou baixar este repositório para seu computador e ab
 <h2>Construído com:</h2>
 - HTML5<br>
 - CSS3
+- JavaScript
